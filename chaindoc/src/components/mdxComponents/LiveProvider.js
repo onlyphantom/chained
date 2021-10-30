@@ -1,11 +1,16 @@
 import * as React from 'react';
 import { LiveProvider, LiveEditor, LiveError, LivePreview } from 'react-live';
 
-const ReactLiveProvider = ({ code }) => {
+const ReactLiveProvider = ({ code, hideCode }) => {
   return (
     <LiveProvider code={code}>
-      <LiveEditor />
-      <LiveError />
+      {
+        !hideCode &&
+        <>
+          <LiveEditor />
+          <LiveError />
+        </>
+      }
       <LivePreview />
     </LiveProvider>
   );
