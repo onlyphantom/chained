@@ -3,7 +3,7 @@ import { LiveProvider, LiveEditor, LiveError, LivePreview } from 'react-live';
 
 const ReactLiveProvider = ({ code, hideCode }) => {
   return (
-    <LiveProvider code={code}>
+    <LiveProvider code={code} noInline={true}>
       {
         !hideCode &&
         <>

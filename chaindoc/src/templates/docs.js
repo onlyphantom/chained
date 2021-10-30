@@ -17,6 +17,7 @@ export default class MDXRuntimeTest extends Component {
     if (!data) {
       return this.props.children;
     }
+    console.log(data);
     const {
       allMdx,
       mdx,
@@ -66,7 +67,6 @@ export default class MDXRuntimeTest extends Component {
 
     // meta tags
     const metaTitle = mdx.frontmatter.metaTitle;
-
     const metaDescription = mdx.frontmatter.metaDescription;
 
     let canonicalUrl = config.gatsby.siteUrl;
@@ -78,6 +78,7 @@ export default class MDXRuntimeTest extends Component {
     return (
       <Layout {...this.props}>
         <Helmet>
+          {/* add meta author here as well */}
           {metaTitle ? <title>{metaTitle}</title> : null}
           {metaTitle ? <meta name="title" content={metaTitle} /> : null}
           {metaDescription ? <meta name="description" content={metaDescription} /> : null}
@@ -100,7 +101,7 @@ export default class MDXRuntimeTest extends Component {
           </Edit>
         </div>
         <StyledMainWrapper>
-          <MDXRenderer>{mdx.body}</MDXRenderer>
+          <MDXRenderer frontmatter={mdx.frontmatter}>{mdx.body}</MDXRenderer>
         </StyledMainWrapper>
         <div className={'addPaddTopBottom'}>
           <NextPrevious mdx={mdx} nav={nav} />

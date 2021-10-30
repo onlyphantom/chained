@@ -1,20 +1,28 @@
 ---
 title: "Hashing"
-slug: "/hashing-101"
-path: /hashing-intro
 metaTitle: "An introduction to hashing"
 metaDescription: "This is some meta description"
 date: 2021-11-01
 author: Samuel Chan
+metaAuthor: Samuel Chan
 ---
 
+<h4>{props.frontmatter.metaTitle}</h4>
+<p>{props.frontmatter.metaDescription}</p>
+<p>{props.frontmatter.metaDate}</p>
+<p>{JSON.stringify(props.frontmatter)}</p>
+
+An example of interactive code:
 ```javascript react-live=true
-<button style={{color: 'red'}}>Change the text color to blue.</button>
+const elem = <button style={{color: 'seagreen'}}>
+                Change me to blue.
+             </button>
+render(elem)
 ```
 
 
 ```javascript react-live=true hide-code
-() => {
+const App = () => {
 
     const [val, setVal] = React.useState(1704)
 
@@ -29,4 +37,5 @@ author: Samuel Chan
         </div>
     )
 }
+render(App)
 ```
