@@ -76,7 +76,7 @@ export const baseStyles = css`
     border-radius: 1px;
     margin: 0 auto;
     margin-top: 4px;
-    background-color: #b1976b;
+    background-color: #263545;
   }
   .navBarToggle .iconBar:first-child {
     margin-top: 0px;
@@ -134,7 +134,7 @@ export const baseStyles = css`
 
   .navbar-default .navbar-toggle:focus,
   .navbar-default .navbar-toggle:hover {
-    background-color: #001933;
+    background-color: #0c253f;
   }
 
   .headerWrapper {
@@ -257,7 +257,7 @@ export const baseStyles = css`
     padding: 0 !important;
   }
   .navBarDefault {
-    background-color: #b1976b;
+    background-color: #263545;
     border-radius: 0;
     border-top: 0;
     margin-bottom: 0;
@@ -286,7 +286,7 @@ export const baseStyles = css`
   }
 
   .navBarBrand img {
-    width: 120px;
+    width: 60px;
     margin-right: 6px;
     display: inline-block;
   }
@@ -318,9 +318,11 @@ export const baseStyles = css`
   }
   pre {
     border: 0 !important;
-    background-color: rgb(245, 247, 249); /* !important; */
+    background-color: #263545; /* !important; */
   }
-
+  input, textarea, [contenteditable] {
+    caret-color: #fff;
+  }
   blockquote {
     color: rgb(116, 129, 141);
     margin: 0px 0px 24px;
@@ -371,10 +373,10 @@ export const baseStyles = css`
     /* box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16); */
     background-color: #f8f8f8;
     padding: 18px 16px;
-    font-family: 'Poppins';
+    /*  font-family: 'Poppins' */
     font-size: 18px;
     font-weight: 600;
-    color: #b1976b;
+    color: #263545;
     display: flex;
     align-items: center;
   }
@@ -384,7 +386,7 @@ export const baseStyles = css`
   }
 
   .sidebarTitle a {
-    color: #b1976b;
+    color: #263545;
   }
 
   .greenCircle {
@@ -398,14 +400,14 @@ export const baseStyles = css`
   .headerNav {
     font-family: 'Roboto';
     padding: 0px 24px;
-    color: #001933;
+    color: #0c253f;
     font-size: 16px;
     font-weight: 500;
     line-height: 1em;
   }
 
   .headerNav a {
-    color: #001933;
+    color: #0c253f;
     text-decoration: none;
   }
 
@@ -457,7 +459,7 @@ export const baseStyles = css`
     fill: #fff !important;
   }
   .active .collapser > svg > path {
-    fill: #001933 !important;
+    fill: #0c253f !important;
   }
 
   .firstLevel ul .item ul .item {
@@ -481,12 +483,12 @@ export const baseStyles = css`
   }
 
   .showFrontLine .item > a:hover {
-    background-color: #001933;
+    background-color: #0c253f;
   }
 
   .showFrontLine .active > a {
     /* color: #fff; */
-    background-color: #001933;
+    background-color: #0c253f;
   }
 
   .sideBarUL .item .item {
@@ -734,13 +736,13 @@ export const baseStyles = css`
 
   @media (max-width: 767px) {
     .formElement svg path {
-      fill: #b1976b;
+      fill: #263545;
     }
     .visibleMobileView {
       display: block !important;
     }
     .searchInput {
-      color: #b1976b;
+      color: #263545;
     }
     .socialWrapper {
       position: absolute;

@@ -7,7 +7,7 @@ const config = {
   },
   header: {
     // logo: 'https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/brand.svg',
-    logo: 'https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img/https://supertype.ai/wp-content/uploads/2021/07/logo_wide.png',
+    logo: 'https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_300,h_300/https://supertype.ai/wp-content/uploads/2021/07/logo_sq_inv-300x300.png',
     logoLink: 'https://supertype.ai',
     title:
       // "<a href='https://supertype.ai'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",
