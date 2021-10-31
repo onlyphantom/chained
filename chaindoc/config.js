@@ -56,6 +56,7 @@ const config = {
     title: 'Blockchain Docs | Supertype',
     description: 'Documentation built with mdx. Powering hasura.io/learn ',
     ogImage: null,
+    keywords: 'blockchain, classroom',
     docsLocation: 'https://github.com/hasura/gatsby-gitbook-boilerplate/tree/master/content',
     favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
   },

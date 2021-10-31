@@ -27,6 +27,7 @@ exports.createPages = ({ graphql, actions }) => {
                     date
                     author
                     slug
+                    keywords
                   }
                   tableOfContents
                 }
