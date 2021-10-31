@@ -134,7 +134,7 @@ export const baseStyles = css`
 
   .navbar-default .navbar-toggle:focus,
   .navbar-default .navbar-toggle:hover {
-    background-color: #0c253f;
+    background-color: #0e1b28;
   }
 
   .headerWrapper {
@@ -400,14 +400,14 @@ export const baseStyles = css`
   .headerNav {
     font-family: 'Roboto';
     padding: 0px 24px;
-    color: #0c253f;
+    color: #0e1b28;
     font-size: 16px;
     font-weight: 500;
     line-height: 1em;
   }
 
   .headerNav a {
-    color: #0c253f;
+    color: #0e1b28;
     text-decoration: none;
   }
 
@@ -452,14 +452,14 @@ export const baseStyles = css`
   }
 
   .hideFrontLine .active > a {
-    background-color: #1ed3c6;
+    background-color: #3b7789;
     color: #fff !important;
   }
   .firstLevel ul li .collapser svg path {
     fill: #fff !important;
   }
   .active .collapser > svg > path {
-    fill: #0c253f !important;
+    fill: #0e1b28 !important;
   }
 
   .firstLevel ul .item ul .item {
@@ -472,7 +472,7 @@ export const baseStyles = css`
   }
 
   .sideBarUL .item > a {
-    color: #1ED3C6;
+    color: #3b7789;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -483,12 +483,12 @@ export const baseStyles = css`
   }
 
   .showFrontLine .item > a:hover {
-    background-color: #0c253f;
+    background-color: #0e1b28;
   }
 
   .showFrontLine .active > a {
     /* color: #fff; */
-    background-color: #0c253f;
+    background-color: #0e1b28;
   }
 
   .sideBarUL .item .item {
@@ -510,7 +510,7 @@ export const baseStyles = css`
     border-color: rgb(230, 236, 241) !important;
     border-style: solid none solid solid;
     border-width: 1px 0px 1px 1px;
-    background-color: #1ed3c6 !important;
+    background-color: #3b7789 !important;
     color: #fff;
   }
 
